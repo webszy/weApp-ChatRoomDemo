@@ -1,0 +1,19 @@
+<!--pages/chat.wxml-->
+<view class='wrap'>
+
+<scroll-view class='chatContent'>
+  <view class='chatItem' wx:for='{{chatList}}' wx:key='{{index}}'>
+    <text class='title'>{{item.username}} {{item.userdate}}</text>
+    <text class='content'>{{item.content}}</text>
+  </view>
+
+</scroll-view>
+  <view class='footer'>
+    <i-input value="{{ value1 }}"  autofocus id="Ainput"
+    placeholder='输入...' i-class	='words' bind:change='handerInput'/>
+    <i-button bind:click='handleClick' inline i-class='send' >发送</i-button>
+  </view>
+
+</view>
+
+

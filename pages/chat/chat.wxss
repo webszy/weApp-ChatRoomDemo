@@ -1,0 +1,56 @@
+/* pages/chat.wxss */
+.wrap{
+  display: flex;
+  flex-direction: column;
+  /* overflow-y: scroll; */
+  min-height: 100vh;
+  width: 100%;
+}
+.chatContent{
+  /* height: 1080rpx; */
+    flex: 1;
+    overflow: hidden;
+}
+.chatItem{
+  width:60%;
+  border-bottom:1px solid red;
+  margin-bottom: 20rpx;
+  height: 80rpx;
+  font-size: 30rpx;
+  padding-top: 10rpx;
+  
+}
+.chatItem:nth-child(odd){
+  float:left; 
+  margin-left: 20rpx;
+}
+.chatItem:nth-child(even){
+  float:right; 
+  margin-right: 20rpx;
+
+}
+.title{
+  margin-left: 20rpx;
+  display: block;
+  font-size: 26rpx;
+}
+
+.footer{
+  height: 128rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.words{
+  border-bottom:1px solid #666;
+  width: 460rpx;
+  height: 70rpx;
+  font-size: 60rpx;
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.send{
+  margin-right: 100rpx;
+  background-color: "#ac0"
+}

@@ -1,0 +1,24 @@
+/**index.wxss**/
+.tabBarItem{
+  width: 40rpx;
+  height: 40rpx;
+}
+.cardSep {
+  height: 20rpx;
+}
+.cartContent{
+  font-size: 30rpx;
+  color: #333;
+}
+/* .listItem{
+  width: 90%;
+  height: 100rpx;
+  margin: 0 auto;
+  border-bottom: 1px dotted skyblue;
+  margin-bottom: 20rpx;
+
+}
+.listItem image{
+  width: 100rpx;
+  height: 100rpx;
+} */
